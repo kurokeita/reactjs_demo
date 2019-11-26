@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+header{
+  margin-bottom: 50px;
+}
+
+header .navbar{
+  background-color: #fff!important;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+footer{
+  margin-top: 100px;
+  border-top: 1px solid #aaaaaa;
+  padding-top: 50px;
+}
+
+.radio-area{
+  display: inline-block;
+  margin-right: 25px;
+}
+
+table{
+  width: 100%;
+  align-self: center;
+  border: 1px solid #dddddd;
+  text-align: center;
+}
+table thead{
+  border-bottom: 1px solid #dddddd;
+  background: #eeeeee;
+}
+
+table th, table td{
+  height: 50px;
+  border: 1px solid #dddddd;
+}
+
+.todo-lists .btn-new{
+  margin-right: 30px;
+  background: none;
+  color: black;
+  border: 1px solid #dddddd;
+}
+
+.form-filter{
+  width: auto;
+  display: inline-block;
+  float: right;
+}
+.form-filter div{
+  width: 200px;
+  display: inline-block;
+  position: relative;
+  margin-right: 40px;
+}
+.form-filter div:last-child{
+  margin-right: 0;
+}
+
+.form-filter div:first-child{
+  width: 300px!important;
+}
+
+.form-filter select{
+  display: inline-block;
+  width: 120px;
+  margin-left: 20px;
+}
+
+.form-filter input, .form-filter label{
+  display: inline-block;
+}
+
+.btn-search{
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background: none;
+  color: black;
+  border-left: 1px solid #dddddd;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.btn-search:hover{
+  border: none;
+  background: green;
+  color: black;
+  border-left: 1px solid #dddddd;
+}
+
+.btn-secondary{
+  background: none;
+  color: black;
+  border: 1px solid #dddddd;
+}
